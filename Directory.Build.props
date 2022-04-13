@@ -1,0 +1,8 @@
+<Project>
+	<PropertyGroup>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<OutputPath>$(MSBuildProjectDirectory)\..\build\bin\$(MSBuildProject)</OutputPath>
+		<IntermediateOutputPath>$(BaseIntermediateOutputPath)\$(MSBuildProject)</IntermediateOutputPath>
+		<BaseIntermediateOutputPath>$(MSBuildProjectDirectory)\..\build\obj</BaseIntermediateOutputPath>
+	</PropertyGroup>
+</Project>
