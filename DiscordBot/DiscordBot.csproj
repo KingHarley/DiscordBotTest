@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Discord.Net.WebSocket" Version="3.5.0" />
+    <PackageReference Include="Discord.Net.Interactions" Version="3.6.1" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="3.6.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
